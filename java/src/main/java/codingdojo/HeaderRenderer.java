@@ -4,6 +4,6 @@ class HeaderRenderer implements Renderer {
 
     @Override
     public String render(Message message) {
-        return String.format("<header>%s</header>", message.header());
+        return String.format("<h1>%s</h1>", message.header());
     }
 }

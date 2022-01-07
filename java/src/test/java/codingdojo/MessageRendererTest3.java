@@ -10,6 +10,6 @@ public class MessageRendererTest3 {
         var sut = new MessageRenderer();
         var message = new Message("h", "b", "f");
         String html = sut.render(message);
-        assertEquals("<header>h</header><body>b</body><footer>f</footer>", html);
+        assertEquals("<h1>h</h1><b>b</b><i>f</i>", html);
     }
 }

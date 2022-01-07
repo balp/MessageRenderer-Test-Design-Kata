@@ -4,6 +4,6 @@ class BodyRenderer implements Renderer {
 
     @Override
     public String render(Message message) {
-        return String.format("<body>%s</body>", message.body());
+        return String.format("<b>%s</b>", message.body());
     }
 }

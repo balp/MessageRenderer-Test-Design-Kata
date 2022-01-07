@@ -1,7 +1,7 @@
 MessageRenderer Test Design
 ===========================
 
-There are three different unit tests for the MessageRenderer class. Which one do you prefer? Why?
+There are several test cases for the MessageRenderer class. Review them and work out which test design principles they do or don't follow.
 
 Acknowledgements
 ----------------

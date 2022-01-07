@@ -37,6 +37,12 @@
             <artifactId>approvaltests</artifactId>
             <version>12.3.2</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/net.sf.jtidy/jtidy -->
+        <dependency>
+            <groupId>net.sf.jtidy</groupId>
+            <artifactId>jtidy</artifactId>
+            <version>r938</version>
+        </dependency>
     </dependencies>
     <build>
         <plugins>
