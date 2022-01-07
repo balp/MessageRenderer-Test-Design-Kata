@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class MessageRendererTest4 {
     @Test
-    public void rendering_a_message() throws URISyntaxException, IOException {
+    public void message_renderer() throws URISyntaxException, IOException {
         var header = new String(Files.readAllBytes(Paths.get(getClass().getResource("header.txt").toURI())));
         var body = new String(Files.readAllBytes(Paths.get(getClass().getResource("body.txt").toURI())));
         var footer = new String(Files.readAllBytes(Paths.get(getClass().getResource("footer.txt").toURI())));

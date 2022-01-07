@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class MessageRendererTest2 {
 
     @Test
-    public void message_renderer_implemented_correctly() throws IOException {
+    public void message_renderer() throws IOException {
 
         var location = System.getProperty("user.dir");
         var sourceCode = new String(Files.readAllBytes(Path.of(location, "src", "main", "java", "codingdojo",  "MessageRenderer.java")));

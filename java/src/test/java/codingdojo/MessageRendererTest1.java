@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class MessageRendererTest1 {
     @Test
-    void message_renderer_uses_correct_subrenderers() {
+    void message_renderer() {
         var sut = new MessageRenderer();
 
         var renderers = sut.getSubRenderers();

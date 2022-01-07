@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class MessageRendererTest3 {
     @Test
-    public void rendering_a_message() {
+    public void message_renderer() {
         var sut = new MessageRenderer();
         var message = new Message("h", "b", "f");
         String html = sut.render(message);
